@@ -15,6 +15,9 @@ public class SimpleInterestCalculator implements InterestCalculator {
 		if(amount<0||year <0) {
 			throw new IllegalArgumentException("Montant et durée doivent être positifs");
 		}
+		if(amount<0||year <0) {
+			throw new IllegalArgumentException("Montant et durée doivent être positifs");
+		}
 		
 		return amount*year*rate;
 	}
