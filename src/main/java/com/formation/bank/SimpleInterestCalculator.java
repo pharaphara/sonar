@@ -30,5 +30,9 @@ public class SimpleInterestCalculator implements InterestCalculator {
 
         return amount * year * rate;
     }
+    
+    public void void1() {
+    	
+    }
 
 }
